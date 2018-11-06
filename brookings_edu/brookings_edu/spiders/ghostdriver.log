@@ -1,0 +1,47 @@
+[INFO  - 2018-11-06T02:42:16.526Z] GhostDriver - Main - running on port 59916
+[INFO  - 2018-11-06T02:42:18.596Z] Session [94063600-e16d-11e8-85ba-735a3d896a8c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-06T02:42:18.596Z] Session [94063600-e16d-11e8-85ba-735a3d896a8c] - page.customHeaders:  - {}
+[INFO  - 2018-11-06T02:42:18.596Z] Session [94063600-e16d-11e8-85ba-735a3d896a8c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-06T02:42:18.596Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 94063600-e16d-11e8-85ba-735a3d896a8c
+[ERROR - 2018-11-06T02:42:18.606Z] RouterReqHand - _handle.error - {"name":"Missing Command Parameter","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Content-Length\":\"73\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:59916\",\"User-Agent\":\"selenium/3.14.1 (python windows)\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{\\\"pageLoad\\\": 200000, \\\"sessionId\\\": \\\"94063600-e16d-11e8-85ba-735a3d896a8c\\\"}\",\"url\":\"/timeouts\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"timeouts\",\"directory\":\"/\",\"path\":\"/timeouts\",\"relative\":\"/timeouts\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/timeouts\",\"queryKey\":{},\"chunks\":[\"timeouts\"]},\"urlOriginal\":\"/session/94063600-e16d-11e8-85ba-735a3d896a8c/timeouts\"}","line":546,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_postTimeout@phantomjs://code/session_request_handler.js:546:73\n_handle@phantomjs://code/session_request_handler.js:148:25\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-06T02:42:27.265Z] Session [94063600-e16d-11e8-85ba-735a3d896a8c] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-06T02:42:27.265Z] Session [94063600-e16d-11e8-85ba-735a3d896a8c] - page.onError - stack:
+  k (https://www.brookings.edu/blog/order-from-chaos/2018/01/24/how-much-does-scripture-influence-the-political-behavior-of-islamists/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/order-from-chaos/2018/01/24/how-much-does-scripture-influence-the-political-behavior-of-islamists/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/order-from-chaos/2018/01/24/how-much-does-scripture-influence-the-political-behavior-of-islamists/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-06T02:43:31.204Z] Session [94063600-e16d-11e8-85ba-735a3d896a8c] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-06T02:43:31.204Z] Session [94063600-e16d-11e8-85ba-735a3d896a8c] - page.onError - stack:
+  k (https://www.brookings.edu/research/how-to-combat-fake-news-and-disinformation/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/how-to-combat-fake-news-and-disinformation/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/how-to-combat-fake-news-and-disinformation/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-06T02:47:16.519Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-06T02:52:16.531Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-06T02:55:36.184Z] Session [94063600-e16d-11e8-85ba-735a3d896a8c] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-06T02:55:36.184Z] Session [94063600-e16d-11e8-85ba-735a3d896a8c] - page.onError - stack:
+  k (https://www.brookings.edu/blog/markaz/2017/08/22/how-likely-is-a-significant-split-within-the-egyptian-muslim-brotherhood-by-the-end-of-2020/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/markaz/2017/08/22/how-likely-is-a-significant-split-within-the-egyptian-muslim-brotherhood-by-the-end-of-2020/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/markaz/2017/08/22/how-likely-is-a-significant-split-within-the-egyptian-muslim-brotherhood-by-the-end-of-2020/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-06T02:56:22.803Z] Session [94063600-e16d-11e8-85ba-735a3d896a8c] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-06T02:56:22.803Z] Session [94063600-e16d-11e8-85ba-735a3d896a8c] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2017/03/16/what-trumps-tax-returns-tell-us-the-public-needs-to-see-more/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2017/03/16/what-trumps-tax-returns-tell-us-the-public-needs-to-see-more/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2017/03/16/what-trumps-tax-returns-tell-us-the-public-needs-to-see-more/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-06T02:57:16.544Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
