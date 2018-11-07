@@ -4,14 +4,11 @@
 #
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-import hashlib
-import time
 
-from PIL import Image
 from scrapy import signals
 
 
-class BrookingsEduSpiderMiddleware(object):
+class RandOrgSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
     # passed objects.
@@ -59,7 +56,7 @@ class BrookingsEduSpiderMiddleware(object):
         spider.logger.info('Spider opened: %s' % spider.name)
 
 
-class BrookingsEduDownloaderMiddleware(object):
+class RandOrgDownloaderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.
@@ -104,76 +101,3 @@ class BrookingsEduDownloaderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
-
-
-from selenium import webdriver
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
-from scrapy.http import HtmlResponse
-from logging import getLogger
-
-
-class SeleniumMiddleware(object):
-    def __init__(self, timeout=200):
-        self.logger = getLogger(__name__)
-        self.timeout = timeout
-        self.browser = webdriver.PhantomJS()
-        self.browser.maximize_window()
-        self.browser.set_page_load_timeout(self.timeout)
-        self.wait = WebDriverWait(self.browser, self.timeout)
-        self.image_urls = []
-
-    def __del__(self):
-        self.browser.close()
-
-    def process_response(self, request, response, spider):
-        """
-        使用phantomjs抓取页面
-        :param request: Request对象
-        :param spider: SPider对象
-        :return: HtmlResponse
-        """
-        if spider.name == 'brookings':
-
-            # self.logger.debug('Phantomjs is Starting')
-            try:
-                if response.xpath('//figure[contains(@class,"simplechart-widget")]'):
-                    self.browser.get(response.url)
-                    time.sleep(2)
-                    self.browser.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-
-                    svg_image = self.browser.find_elements_by_css_selector('.simplechart-widget')
-
-                    # self.wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'nvd3-svg')))
-                    self.browser.save_screenshot(r'./photo.png')
-                    #此处使用for循环无效
-                    # for image in svg_image:
-                    while svg_image:
-                        pop_image = svg_image.pop()
-
-                        left = pop_image.location['x']
-                        top = pop_image.location['y']
-                        width = left + pop_image.size['width']
-                        height = top + pop_image.size['height']
-                        image = Image.open(r'./photo.png')
-                        image = image.crop((left, top, width, height))
-                        image_name = self.filename_fingerprint(pop_image.id.split(':')[-1] + time.strftime('%Y%m%d%H%M'))
-                        image_filename = 'F:\images\\' + image_name + '.png'
-                        image.save(image_filename)
-                        self.image_urls.append(image_filename)
-                        request.meta['picture'] = self.image_urls
-                    return HtmlResponse(url=response.url, body=self.browser.page_source, request=request,
-                                        encoding='utf-8', status=200)
-                else:
-                    return response
-            except TimeoutException as e:
-
-                return response
-        else:
-            return response
-
-    def filename_fingerprint(self,filename):
-        hash_filename = hashlib.md5(filename.encode('utf8'))
-        return hash_filename.hexdigest()

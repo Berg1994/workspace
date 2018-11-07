@@ -79,5 +79,4 @@ class BrookingsEduItem(scrapy.Item):
     bookInfo = scrapy.Field()
     # 指纹摘要
     fingerPrint = scrapy.Field()
-    # 当前页面链接
-    currentUrl = scrapy.Field()
+

@@ -1,0 +1,702 @@
+[INFO  - 2018-11-07T02:46:09.256Z] GhostDriver - Main - running on port 61807
+[INFO  - 2018-11-07T02:46:11.344Z] Session [492a7cc0-e237-11e8-8c87-9f127bfba406] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-07T02:46:11.344Z] Session [492a7cc0-e237-11e8-8c87-9f127bfba406] - page.customHeaders:  - {}
+[INFO  - 2018-11-07T02:46:11.344Z] Session [492a7cc0-e237-11e8-8c87-9f127bfba406] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-07T02:46:11.344Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 492a7cc0-e237-11e8-8c87-9f127bfba406
+[ERROR - 2018-11-07T02:46:11.352Z] RouterReqHand - _handle.error - {"name":"Missing Command Parameter","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Content-Length\":\"73\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:61807\",\"User-Agent\":\"selenium/3.14.1 (python windows)\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{\\\"pageLoad\\\": 200000, \\\"sessionId\\\": \\\"492a7cc0-e237-11e8-8c87-9f127bfba406\\\"}\",\"url\":\"/timeouts\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"timeouts\",\"directory\":\"/\",\"path\":\"/timeouts\",\"relative\":\"/timeouts\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/timeouts\",\"queryKey\":{},\"chunks\":[\"timeouts\"]},\"urlOriginal\":\"/session/492a7cc0-e237-11e8-8c87-9f127bfba406/timeouts\"}","line":546,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_postTimeout@phantomjs://code/session_request_handler.js:546:73\n_handle@phantomjs://code/session_request_handler.js:148:25\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T02:51:09.346Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-07T02:56:09.346Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-07T03:01:09.349Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-07T03:06:09.349Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ary-voters/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-the-ideology-of-primary-voters/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:47:10.107Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:47:10.107Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/the-2018-primaries-project-what-are-the-internal-divisions-within-each-party/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-what-are-the-internal-divisions-within-each-party/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-what-are-the-internal-divisions-within-each-party/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:48:01.495Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:48:01.495Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/the-2018-primaries-project-congressional-primary-voters-and-president-trump/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-congressional-primary-voters-and-president-trump/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-congressional-primary-voters-and-president-trump/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:48:48.726Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:48:48.726Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/the-2018-primaries-project-what-are-the-candidates-talking-about-and-what-are-they-not-talking-about/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-what-are-the-candidates-talking-about-and-what-are-they-not-talking-about/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-what-are-the-candidates-talking-about-and-what-are-they-not-talking-about/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:49:38.242Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:49:38.243Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/the-2018-primaries-project-the-demographics-of-primary-voters/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-the-demographics-of-primary-voters/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-the-demographics-of-primary-voters/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:50:31.033Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:50:31.033Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/the-2018-primaries-project-congressional-voters-on-the-issues/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-congressional-voters-on-the-issues/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-congressional-voters-on-the-issues/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T02:51:05.685Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T02:51:21.765Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:51:21.765Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/brookings-now/2018/03/08/the-mortgage-market-risk-no-ones-talking-about-plus-a-proposal-to-redesign-the-system/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/brookings-now/2018/03/08/the-mortgage-market-risk-no-ones-talking-about-plus-a-proposal-to-redesign-the-system/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/brookings-now/2018/03/08/the-mortgage-market-risk-no-ones-talking-about-plus-a-proposal-to-redesign-the-system/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:52:11.844Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:52:11.844Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2018/10/22/race-for-the-senate-2018-key-issues-in-florida/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/10/22/race-for-the-senate-2018-key-issues-in-florida/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/10/22/race-for-the-senate-2018-key-issues-in-florida/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:52:58.898Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:52:58.898Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/the-2018-primaries-project-introduction-to-the-candidates/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-introduction-to-the-candidates/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-introduction-to-the-candidates/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:53:50.602Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:53:50.602Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/supporting-mortgage-lending-in-rural-communities/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/supporting-mortgage-lending-in-rural-communities/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/supporting-mortgage-lending-in-rural-communities/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:54:38.894Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:54:38.894Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/up-front/2018/01/12/why-congress-shouldnt-roll-back-the-secs-money-market-rules/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/up-front/2018/01/12/why-congress-shouldnt-roll-back-the-secs-money-market-rules/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/up-front/2018/01/12/why-congress-shouldnt-roll-back-the-secs-money-market-rules/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:55:55.144Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:55:55.145Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2018/08/16/is-the-republican-party-really-donald-trumps-party/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/08/16/is-the-republican-party-really-donald-trumps-party/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/08/16/is-the-republican-party-really-donald-trumps-party/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T02:56:05.689Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T02:56:46.819Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:56:46.819Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2018/06/01/the-pink-wave-makes-herstory-women-candidates-in-the-2018-midterm-elections/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/06/01/the-pink-wave-makes-herstory-women-candidates-in-the-2018-midterm-elections/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/06/01/the-pink-wave-makes-herstory-women-candidates-in-the-2018-midterm-elections/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:57:35.050Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:57:35.051Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2018/04/18/trump-voters-in-democratic-primaries-a-closer-look-at-illinoiss-3rd-congressional-district/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/04/18/trump-voters-in-democratic-primaries-a-closer-look-at-illinoiss-3rd-congressional-district/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/04/18/trump-voters-in-democratic-primaries-a-closer-look-at-illinoiss-3rd-congressional-district/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:58:24.015Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:58:24.015Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2018/03/22/what-do-the-illinois-primary-elections-tell-us/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/03/22/what-do-the-illinois-primary-elections-tell-us/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/03/22/what-do-the-illinois-primary-elections-tell-us/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:59:11.902Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T02:59:11.902Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2018/04/05/how-millennials-and-gun-control-can-change-the-2018-midterm-landscape/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/04/05/how-millennials-and-gun-control-can-change-the-2018-midterm-landscape/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/04/05/how-millennials-and-gun-control-can-change-the-2018-midterm-landscape/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:00:00.764Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:00:00.764Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2018/03/05/the-primaries-project-what-to-expect-in-the-2018-midterms/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/03/05/the-primaries-project-what-to-expect-in-the-2018-midterms/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/03/05/the-primaries-project-what-to-expect-in-the-2018-midterms/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:00:48.254Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:00:48.254Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2018/03/14/trump-and-pa-18/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/03/14/trump-and-pa-18/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/03/14/trump-and-pa-18/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T03:01:05.689Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T03:01:35.878Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:01:35.878Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2018/02/26/is-a-wave-rolling-in-for-house-democrats/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/02/26/is-a-wave-rolling-in-for-house-democrats/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/02/26/is-a-wave-rolling-in-for-house-democrats/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:02:28.065Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:02:28.065Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/after-one-year-in-office-trumps-behind-on-staffing-but-making-steady-progress/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/after-one-year-in-office-trumps-behind-on-staffing-but-making-steady-progress/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/after-one-year-in-office-trumps-behind-on-staffing-but-making-steady-progress/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:03:21.632Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:03:21.633Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2018/01/10/25th-amendment-how-do-we-decide-whether-the-president-is-competent/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/01/10/25th-amendment-how-do-we-decide-whether-the-president-is-competent/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/01/10/25th-amendment-how-do-we-decide-whether-the-president-is-competent/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:04:10.521Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:04:10.521Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2017/12/27/trump-in-2018-the-year-of-the-mobilized-democrat/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2017/12/27/trump-in-2018-the-year-of-the-mobilized-democrat/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2017/12/27/trump-in-2018-the-year-of-the-mobilized-democrat/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:05:01.099Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:05:01.099Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2017/11/30/committee-chair-term-limits-and-retirements/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2017/11/30/committee-chair-term-limits-and-retirements/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2017/11/30/committee-chair-term-limits-and-retirements/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:05:48.309Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:05:48.309Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/up-front/2017/12/06/drop-in-public-investment-picks-up-steam-under-gop-tax-plan/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/up-front/2017/12/06/drop-in-public-investment-picks-up-steam-under-gop-tax-plan/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/up-front/2017/12/06/drop-in-public-investment-picks-up-steam-under-gop-tax-plan/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T03:06:05.702Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T03:06:40.127Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:06:40.127Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2017/10/25/inning-two-will-2018-be-a-wave-election/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2017/10/25/inning-two-will-2018-be-a-wave-election/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2017/10/25/inning-two-will-2018-be-a-wave-election/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:07:31.290Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:07:31.290Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/re-engineering-politicians-how-activist-groups-choose-our-politicians-long-before-we-vote/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/re-engineering-politicians-how-activist-groups-choose-our-politicians-long-before-we-vote/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/re-engineering-politicians-how-activist-groups-choose-our-politicians-long-before-we-vote/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:09:33.197Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:09:33.197Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/brown-center-chalkboard/2017/06/07/3-observations-on-trumps-education-budget/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/brown-center-chalkboard/2017/06/07/3-observations-on-trumps-education-budget/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/brown-center-chalkboard/2017/06/07/3-observations-on-trumps-education-budget/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T03:11:05.702Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T03:14:30.115Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:14:30.115Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2017/12/07/republicans-empty-promises-on-the-child-tax-credit/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2017/12/07/republicans-empty-promises-on-the-child-tax-credit/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2017/12/07/republicans-empty-promises-on-the-child-tax-credit/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:15:18.041Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:15:18.041Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/the-2018-primaries-project-appendix-to-candidates-data/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-appendix-to-candidates-data/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-appendix-to-candidates-data/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T03:16:09.271Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T03:16:14.779Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:16:14.779Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/the-primaries-project-2018-who-runs-in-congressional-primaries/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/the-primaries-project-2018-who-runs-in-congressional-primaries/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/the-primaries-project-2018-who-runs-in-congressional-primaries/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:18:19.796Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:18:19.796Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/brookings-now/2018/03/08/robots-arent-taking-the-jobs-just-the-paychecks-and-other-new-findings-in-economics/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/brookings-now/2018/03/08/robots-arent-taking-the-jobs-just-the-paychecks-and-other-new-findings-in-economics/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/brookings-now/2018/03/08/robots-arent-taking-the-jobs-just-the-paychecks-and-other-new-findings-in-economics/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:19:09.558Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:19:09.559Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/techtank/2018/04/06/less-than-four-percent-of-private-investment-in-health-rd-targets-the-developing-world/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2018/04/06/less-than-four-percent-of-private-investment-in-health-rd-targets-the-developing-world/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2018/04/06/less-than-four-percent-of-private-investment-in-health-rd-targets-the-developing-world/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:19:55.551Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:19:55.551Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/techtank/2018/04/06/automation-could-create-a-more-inclusive-economy-through-high-skilled-side-work/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2018/04/06/automation-could-create-a-more-inclusive-economy-through-high-skilled-side-work/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2018/04/06/automation-could-create-a-more-inclusive-economy-through-high-skilled-side-work/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:20:47.157Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:20:47.157Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/techtank/2018/01/22/why-do-we-fail-to-measure-the-most-innovative-countries/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2018/01/22/why-do-we-fail-to-measure-the-most-innovative-countries/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2018/01/22/why-do-we-fail-to-measure-the-most-innovative-countries/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T03:21:09.267Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T03:21:36.215Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:21:36.215Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/techtank/2017/12/19/are-drugs-for-neglected-diseases-profitable/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2017/12/19/are-drugs-for-neglected-diseases-profitable/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2017/12/19/are-drugs-for-neglected-diseases-profitable/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:22:23.641Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:22:23.641Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/techtank/2018/04/23/whos-investing-in-health-care-rd/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2018/04/23/whos-investing-in-health-care-rd/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2018/04/23/whos-investing-in-health-care-rd/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:23:36.805Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:23:36.805Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/techtank/2017/03/15/better-together-broadband-deployment-and-broadband-competition/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2017/03/15/better-together-broadband-deployment-and-broadband-competition/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2017/03/15/better-together-broadband-deployment-and-broadband-competition/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:24:27.909Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:24:27.909Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/techtank/2017/01/17/empirical-data-on-the-privacy-paradox/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2017/01/17/empirical-data-on-the-privacy-paradox/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2017/01/17/empirical-data-on-the-privacy-paradox/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:25:21.862Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:25:21.862Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/techtank/2017/01/30/trumps-immigration-order-deprives-u-s-of-technology-talent/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2017/01/30/trumps-immigration-order-deprives-u-s-of-technology-talent/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2017/01/30/trumps-immigration-order-deprives-u-s-of-technology-talent/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T03:26:09.279Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T03:26:12.154Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:26:12.154Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/localizing-the-economic-impact-of-research-and-development/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/localizing-the-economic-impact-of-research-and-development/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/localizing-the-economic-impact-of-research-and-development/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T03:31:09.279Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T03:31:55.408Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:31:55.408Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/techtank/2017/10/09/do-it-yourself-biology-shows-safety-risks-of-an-open-innovation-movement/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2017/10/09/do-it-yourself-biology-shows-safety-risks-of-an-open-innovation-movement/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2017/10/09/do-it-yourself-biology-shows-safety-risks-of-an-open-innovation-movement/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:33:04.999Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:33:04.999Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/how-to-combat-fake-news-and-disinformation/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/how-to-combat-fake-news-and-disinformation/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/how-to-combat-fake-news-and-disinformation/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:34:13.161Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:34:13.161Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2017/03/16/what-trumps-tax-returns-tell-us-the-public-needs-to-see-more/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2017/03/16/what-trumps-tax-returns-tell-us-the-public-needs-to-see-more/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2017/03/16/what-trumps-tax-returns-tell-us-the-public-needs-to-see-more/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T03:36:09.280Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T03:36:12.352Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:36:12.353Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/the-2018-primaries-project-exploring-californias-top-two-primary/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-exploring-californias-top-two-primary/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/the-2018-primaries-project-exploring-californias-top-two-primary/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:38:01.764Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:38:01.765Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/up-front/2018/10/22/the-hutchins-center-explains-the-neutral-rate-of-interest/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/up-front/2018/10/22/the-hutchins-center-explains-the-neutral-rate-of-interest/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/up-front/2018/10/22/the-hutchins-center-explains-the-neutral-rate-of-interest/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:38:57.705Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:38:57.706Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/harnessing-the-future-of-ai-in-india/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/harnessing-the-future-of-ai-in-india/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/harnessing-the-future-of-ai-in-india/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:39:55.029Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:39:55.029Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/techtank/2018/05/23/the-general-data-protection-regulation-sets-privacy-by-default/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2018/05/23/the-general-data-protection-regulation-sets-privacy-by-default/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2018/05/23/the-general-data-protection-regulation-sets-privacy-by-default/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:40:48.561Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:40:48.561Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2018/10/24/what-fec-filings-can-and-cant-tell-us-about-the-election/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/10/24/what-fec-filings-can-and-cant-tell-us-about-the-election/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/10/24/what-fec-filings-can-and-cant-tell-us-about-the-election/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T03:41:09.281Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T03:41:40.717Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:41:40.717Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2018/10/25/role-reversal-democrats-and-republicans-express-surprising-views-on-trade-foreign-policy-and-immigration/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/10/25/role-reversal-democrats-and-republicans-express-surprising-views-on-trade-foreign-policy-and-immigration/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/10/25/role-reversal-democrats-and-republicans-express-surprising-views-on-trade-foreign-policy-and-immigration/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:43:14.021Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:43:14.021Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/brown-center-chalkboard/2017/01/06/the-government-is-sanctioning-for-profit-colleges-what-happens-to-the-students/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/brown-center-chalkboard/2017/01/06/the-government-is-sanctioning-for-profit-colleges-what-happens-to-the-students/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/brown-center-chalkboard/2017/01/06/the-government-is-sanctioning-for-profit-colleges-what-happens-to-the-students/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T03:46:09.298Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T03:46:42.220Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:46:42.220Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/regulatory-lobbying-has-increased-under-the-trump-administration-but-the-groups-doing-the-lobbying-may-surprise-you/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/regulatory-lobbying-has-increased-under-the-trump-administration-but-the-groups-doing-the-lobbying-may-surprise-you/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/regulatory-lobbying-has-increased-under-the-trump-administration-but-the-groups-doing-the-lobbying-may-surprise-you/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:50:10.516Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:50:10.517Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/the-early-results-of-states-opportunity-zones-are-promising-but-theres-still-room-for-improvement/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/the-early-results-of-states-opportunity-zones-are-promising-but-theres-still-room-for-improvement/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/the-early-results-of-states-opportunity-zones-are-promising-but-theres-still-room-for-improvement/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T03:51:09.300Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T03:53:44.555Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:53:44.556Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/gauging-investment-in-self-driving-cars/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/gauging-investment-in-self-driving-cars/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/gauging-investment-in-self-driving-cars/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T03:56:09.311Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T03:57:13.006Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T03:57:13.007Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/order-from-chaos/2018/10/09/whats-behind-erdogans-apparent-support-for-liberal-international-order/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/order-from-chaos/2018/10/09/whats-behind-erdogans-apparent-support-for-liberal-international-order/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/order-from-chaos/2018/10/09/whats-behind-erdogans-apparent-support-for-liberal-international-order/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:00:43.266Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:00:43.266Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/future-development/2018/07/10/do-social-protection-programs-improve-life-satisfaction-lessons-from-iraq/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/future-development/2018/07/10/do-social-protection-programs-improve-life-satisfaction-lessons-from-iraq/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/future-development/2018/07/10/do-social-protection-programs-improve-life-satisfaction-lessons-from-iraq/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T04:01:09.311Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T04:04:08.936Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:04:08.936Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/techtank/2018/05/01/the-state-of-self-driving-car-laws-across-the-u-s/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2018/05/01/the-state-of-self-driving-car-laws-across-the-u-s/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/techtank/2018/05/01/the-state-of-self-driving-car-laws-across-the-u-s/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T04:06:09.313Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T04:07:38.664Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:07:38.664Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/order-from-chaos/2018/01/24/how-much-does-scripture-influence-the-political-behavior-of-islamists/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/order-from-chaos/2018/01/24/how-much-does-scripture-influence-the-political-behavior-of-islamists/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/order-from-chaos/2018/01/24/how-much-does-scripture-influence-the-political-behavior-of-islamists/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:11:01.793Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:11:01.793Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/up-front/2018/02/28/why-are-canadas-first-nations-women-dying-at-such-an-alarming-rate/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/up-front/2018/02/28/why-are-canadas-first-nations-women-dying-at-such-an-alarming-rate/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/up-front/2018/02/28/why-are-canadas-first-nations-women-dying-at-such-an-alarming-rate/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T04:11:09.325Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T04:14:27.693Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:14:27.694Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/social-mobility-memos/2018/01/29/enough-about-men-3-reasons-to-boost-womens-work/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/social-mobility-memos/2018/01/29/enough-about-men-3-reasons-to-boost-womens-work/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/social-mobility-memos/2018/01/29/enough-about-men-3-reasons-to-boost-womens-work/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T04:16:09.328Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T04:17:53.936Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:17:53.936Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/why-is-trumps-staff-turnover-higher-than-the-5-most-recent-presidents/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/why-is-trumps-staff-turnover-higher-than-the-5-most-recent-presidents/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/why-is-trumps-staff-turnover-higher-than-the-5-most-recent-presidents/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T04:21:09.343Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T04:25:23.909Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:25:23.910Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/seasonally-and-weather-adjusting-the-monthly-jobs-numbers/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/seasonally-and-weather-adjusting-the-monthly-jobs-numbers/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/seasonally-and-weather-adjusting-the-monthly-jobs-numbers/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T04:26:09.343Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T04:28:54.948Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:28:54.948Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/the-long-term-impact-of-aging-on-the-federal-budget/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/the-long-term-impact-of-aging-on-the-federal-budget/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/the-long-term-impact-of-aging-on-the-federal-budget/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T04:31:09.356Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T04:32:25.041Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:32:25.042Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/fixgov/2018/03/07/texas-primary-elections-women-are-running-and-winning/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/03/07/texas-primary-elections-women-are-running-and-winning/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/fixgov/2018/03/07/texas-primary-elections-women-are-running-and-winning/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:35:55.550Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:35:55.551Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/longform/what-the-forgotten-americans-really-want-and-how-to-give-it-to-them/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/longform/what-the-forgotten-americans-really-want-and-how-to-give-it-to-them/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/longform/what-the-forgotten-americans-really-want-and-how-to-give-it-to-them/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T04:36:09.357Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T04:39:18.644Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:39:18.644Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/brookings-now/2018/09/13/bernanke-on-the-causes-of-the-financial-crisis-questioning-how-we-measure-potential-economic-output-and-more-new-research-in-economics/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/brookings-now/2018/09/13/bernanke-on-the-causes-of-the-financial-crisis-questioning-how-we-measure-potential-economic-output-and-more-new-research-in-economics/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/brookings-now/2018/09/13/bernanke-on-the-causes-of-the-financial-crisis-questioning-how-we-measure-potential-economic-output-and-more-new-research-in-economics/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T04:41:09.358Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T04:42:46.916Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:42:46.916Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/markaz/2017/08/22/how-likely-is-a-significant-split-within-the-egyptian-muslim-brotherhood-by-the-end-of-2020/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/markaz/2017/08/22/how-likely-is-a-significant-split-within-the-egyptian-muslim-brotherhood-by-the-end-of-2020/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/markaz/2017/08/22/how-likely-is-a-significant-split-within-the-egyptian-muslim-brotherhood-by-the-end-of-2020/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T04:46:09.362Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T04:46:11.554Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:46:11.554Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/up-front/2017/12/20/estimating-the-rising-cost-of-a-surprising-tax-shelter-the-syndicated-conservation-easement/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/up-front/2017/12/20/estimating-the-rising-cost-of-a-surprising-tax-shelter-the-syndicated-conservation-easement/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/up-front/2017/12/20/estimating-the-rising-cost-of-a-surprising-tax-shelter-the-syndicated-conservation-easement/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:49:36.561Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:49:36.561Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/up-front/2018/09/25/50-years-after-the-kerner-commission-report-the-nation-is-still-grappling-with-many-of-the-same-issues/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/up-front/2018/09/25/50-years-after-the-kerner-commission-report-the-nation-is-still-grappling-with-many-of-the-same-issues/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/up-front/2018/09/25/50-years-after-the-kerner-commission-report-the-nation-is-still-grappling-with-many-of-the-same-issues/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T04:51:09.364Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T04:53:04.102Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:53:04.103Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/up-front/2018/03/14/5-facts-about-prisoners-and-work-before-and-after-incarceration/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/up-front/2018/03/14/5-facts-about-prisoners-and-work-before-and-after-incarceration/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/up-front/2018/03/14/5-facts-about-prisoners-and-work-before-and-after-incarceration/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T04:56:09.373Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T04:56:28.081Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:56:28.081Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/social-mobility-memos/2018/05/11/happy-mothers-day-heres-the-bill/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/social-mobility-memos/2018/05/11/happy-mothers-day-heres-the-bill/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/social-mobility-memos/2018/05/11/happy-mothers-day-heres-the-bill/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:59:52.398Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T04:59:52.399Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/do-school-secessions-worsen-racial-segregation-its-complicated/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/do-school-secessions-worsen-racial-segregation-its-complicated/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/do-school-secessions-worsen-racial-segregation-its-complicated/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T05:01:09.373Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T05:03:18.492Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T05:03:18.492Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/defining-the-middle-class-cash-credentials-or-culture/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/defining-the-middle-class-cash-credentials-or-culture/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/defining-the-middle-class-cash-credentials-or-culture/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T05:06:09.373Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-07T05:07:03.310Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T05:07:03.310Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/research/the-inheritance-of-black-poverty-its-all-about-the-men/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/research/the-inheritance-of-black-poverty-its-all-about-the-men/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/research/the-inheritance-of-black-poverty-its-all-about-the-men/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T05:10:27.463Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.optimizely.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-07T05:10:27.463Z] Session [470811f0-e237-11e8-9f85-abb101d09398] - page.onError - stack:
+  k (https://www.brookings.edu/blog/future-development/2018/10/23/syrian-refugees-and-the-schooling-challenge/:4)
+  initNewOptimizelyIntegration (https://www.brookings.edu/blog/future-development/2018/10/23/syrian-refugees-and-the-schooling-challenge/:4)
+  initOptimizelyIntegration (https://www.brookings.edu/blog/future-development/2018/10/23/syrian-refugees-and-the-schooling-challenge/:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-07T05:11:09.373Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

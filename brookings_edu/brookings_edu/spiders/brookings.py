@@ -56,9 +56,9 @@ class BrookingsSpider(scrapy.Spider):
         """
         item = BrookingsEduItem()
         # 主站网址
-        item['primarySite'] = 'https://www.brookings.edu/'
+        # item['primarySite'] = 'https://www.brookings.edu/'
         # 当前网址
-        item['currentUrl'] = response.url
+        item['primarySite'] = response.url
         # 类别
         item['classify'] = response.url.split('/')[3]
         # 发布机关名称
@@ -66,7 +66,7 @@ class BrookingsSpider(scrapy.Spider):
         # 创建时间
         item['createTime'] = time.time()
         # content = response.xpath('//div[contains(@class,"post-body")]/child::*//text()').extract()
-        content = response.xpath('//div[contains(@class,"post-body")]/p').extract()
+        content = response.xpath('//div[contains(@class,"post-body")]/p/text()').extract()
         # 内容
         item['content'] = self.pase_content(content)
 
