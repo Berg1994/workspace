@@ -52,7 +52,8 @@ class ExpertsSpider(scrapy.Spider):
         # 专家名字
         item['expertName'] = response.xpath('//div[@class="expert-info"]/h1/text()').extract_first()
         # 专家简介
-        item['expertInfo'] = response.xpath('//div[@class="expert-info"]//h3//text()').extract()
+        # item['expertInfo'] = response.xpath('//div[@class="expert-info"]//h3//text()').extract()
+        item['expertInfo'] = response.xpath('//div[@class="expert-grid"]//font/text()').extract()
         # 专家详情
         content = response.xpath('//div[contains(@class,"expert-intro-text ")]/p/text()').extract()
         item['expertDetail'] = self.pase_content(content)

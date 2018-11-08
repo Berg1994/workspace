@@ -11,9 +11,11 @@ import scrapy
 class RandOrgItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
-    #当前页面
+    collections = 'rand'
+    #主站页面
     primarySite = scrapy.Field()
+    #当前页面
+    currentUrl = scrapy.Field()
     #领域类型
     topics = scrapy.Field()
     #标题/名称
@@ -44,9 +46,15 @@ class RandOrgItem(scrapy.Item):
     expertIcon = scrapy.Field()
     #专家名称
     expertName = scrapy.Field()
-    #职位及研究方向
+    #专家简介
     expertInfo = scrapy.Field()
     #专家详情
     expertDetail = scrapy.Field()
+    #专家简历
+    expertDV = scrapy.Field()
     #网站logo
     logo = scrapy.Field()
+    #书籍详情
+    bookDetail = scrapy.Field()
+    #剩余
+    except_url = scrapy.Field()

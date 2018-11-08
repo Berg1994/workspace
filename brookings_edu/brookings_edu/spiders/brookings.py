@@ -66,7 +66,7 @@ class BrookingsSpider(scrapy.Spider):
         # 创建时间
         item['createTime'] = time.time()
         # content = response.xpath('//div[contains(@class,"post-body")]/child::*//text()').extract()
-        content = response.xpath('//div[contains(@class,"post-body")]/p/text()').extract()
+        content = response.xpath('//div[contains(@class,"post-body")]/p//text()').extract()
         # 内容
         item['content'] = self.pase_content(content)
 
@@ -75,7 +75,7 @@ class BrookingsSpider(scrapy.Spider):
             # 作者
             item['author'] = author
         # 标题/书名
-        item['title'] = response.xpath('//div[@class="headline-wrapper"]//h1/text()').extract_first()
+        item['title'] = response.xpath('//div[@class="headline-wrapper"]//h1//text()').extract_first()
         # 相关领域
         topics = response.xpath('//section[@class="related-topics"]/div/ul/li//text()').extract()
         if topics:
