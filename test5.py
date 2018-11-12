@@ -58,10 +58,20 @@
 # print(list4)
 import re
 
-str1 = '/research/topics/european-union?page=16%2C0%2C0%2C15#fragment-3'
-print(str1.split('=')[-1].split('#')[0])
-print(str1.split('=')[-1].split('#')[0])
-res = re.findall(r'(\?page=.*C)',str1)[0]
-resl = re.findall(r'C(\d*?)#',str1)[0]
-print(res)
-print(resl)
+# str1 = '/research/topics/european-union?page=16%2C0%2C0%2C15#fragment-3'
+# print(str1.split('=')[-1].split('#')[0])
+# print(str1.split('=')[-1].split('#')[0])
+# res = re.findall(r'(\?page=.*C)',str1)[0]
+# resl = re.findall(r'C(\d*?)#',str1)[0]
+# print(res)
+# print(resl)
+'https://f1.media.brightcove.com/7/2848955551001/2848955551001_5838116276001_5838028051001.mp4?pubId=2848955551001&videoId=5838028051001'
+
+'https://f1.media.brightcove.com/7/2848955551001/2848955551001_5838038336001_5838028051001.mp4?pubId=2848955551001&videoId=5838028051001'
+'https://f1.media.brightcove.com/7/2848955551001/2848955551001_5838039042001_5838035577001.mp4?pubId=2848955551001&videoId=5838035577001'
+'https://f1.media.brightcove.com/7/2848955551001/2848955551001_5838038423001_5838035577001.mp4?pubId=2848955551001&videoId=5838035577001'
+'https://f1.media.brightcove.com/7/2848955551001/2848955551001_5851839821001_5850886043001.mp4?pubId=2848955551001&videoId=5850886043001'
+str0 = 'https://brightcove.hs.llnwd.net/v1/unsecured/media/2848955551001/201811/1154/2848955551001_5859825770001_5858320218001-vs.jpg?pubId=2848955551001&videoId=5858320218001'
+str1 = 'background-image: url("https://f1.media.brightcove.com/7/2848955551001/2848955551001_5838073418001_5838035577001-vs.jpg?pubId=2848955551001&videoId=5838035577001"); background-size: 100%; background-position: 0px 0px;'
+str2 = str0.replace('jpg','mp4')
+print(str2)
